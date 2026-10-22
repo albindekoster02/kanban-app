@@ -40,7 +40,7 @@ export const KanBanColumn: React.FC<KanBanColumnProps> = ({ title, status }) => 
         }}>
             <h3 style={{marginTop: 0, marginBottom: '12px', display: 'flex', justifyContent: 'space-between', color: '#F2F4F3'}}>
                 <span>{title}</span>
-                <span style={{background: '#F2F4F3', borderRadius: '10px', padding: '2px 8px', fontSize: '0.85rem'}}>
+                <span style={{background: '#010101', borderRadius: '10px', padding: '2px 8px', fontSize: '0.85rem'}}>
                     {columnTasks.length}
                 </span>
             </h3>

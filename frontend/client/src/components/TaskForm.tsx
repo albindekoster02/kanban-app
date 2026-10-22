@@ -76,7 +76,7 @@ export function TaskForm() {
 
             <div style={{ marginBottom: '12px'}}>
                 <label style={{display: 'block', marginBottom: '4px', fontWeight: 'bold'}}>
-                    Beskrvining
+                    Beskrivning
                     </label>
                 <textarea
                     value={description}

@@ -1,6 +1,6 @@
 # Fullstack Kanban Board
 
-En interaktiv och fullstack Kanban-applikation byggd som en kursinlämning. Applikationen hjälper användare att organisera och hantera sina uppgifter visuellt med stöd för persistent lagring och ett externt skämt-API.
+En interaktiv och fullstack Kanban-applikation byggd
 
 ---
 
@@ -35,8 +35,8 @@ En interaktiv och fullstack Kanban-applikation byggd som en kursinlämning. Appl
 
 ```bash
 # Klona repositoryt
-git clone <LÄNK_TILL_DITT_GITHUB_REPO>
-cd <PROJEKTMAPPNAMN>
+git clone <https://github.com/albindekoster02/kanban-app>
+cd <kanban-app>
 
 # Installera beroenden för både frontend och backend
 npm install

@@ -3,7 +3,7 @@ import type { Task, TaskStatus } from "../types/task";
 import { useTasks } from '../context/TaskContext';
 import { formatPriority } from "../utils/formatters";
 
-//Hnaterar enskilda uppgiftskort
+//Hanterar enskilda uppgiftskort
 
 interface TaskCardProps {
     task: Task;
