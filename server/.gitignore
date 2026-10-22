@@ -1,0 +1,22 @@
+# Node moduler (bibliotek)
+node_modules/
+
+# Byggda filer
+dist/
+build/
+
+# Miljövariabler / hemligheter
+.env
+.env.local
+
+# Lokal filbaserad databas (ska inte laddas upp till Git)
+tasks.json
+server/tasks.json
+
+# Loggar
+*.log
+npm-debug.log*
+
+# Operativsystem-specifika filer
+.DS_Store
+Thumbs.db
