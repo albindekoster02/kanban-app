@@ -1,9 +1,10 @@
 import axios from 'axios'
 import type { Task, TaskPriority, TaskStatus } from '../types/task';
 
-//Nätverksanrop
+// Hämtar URL från miljövariabler, eller faller tillbaka på localhost om du kör lokalt
+const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = `${BASE_URL}/tasks`;
 
 export const getTasks = async (): Promise<Task[]> => {
     const response = await axios.get<Task[]>(API_URL);
@@ -36,7 +37,7 @@ export interface Joke {
 }
 
 export const fetchDailyJoke = async (): Promise<Joke> => {
-    const response = await fetch('http://localhost:5000/api/quote');
+    const response = await fetch(`${BASE_URL}/quote`);
     if (!response.ok) {
         throw new Error('Hade ingen humor idag');
     }
